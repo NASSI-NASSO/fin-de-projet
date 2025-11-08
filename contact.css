@@ -1,0 +1,102 @@
+.navbar{
+  background: rgb(2, 7, 73);
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0px 50px;
+  height: 80px;
+  
+}
+.ulnav{
+  display: flex;
+  gap:30px;
+  list-style: none;
+  
+}
+li a {
+   text-decoration:none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s
+}
+
+body{
+  
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items:center;
+ gap: 20px;
+ color: white;
+}
+.formule{
+    background: #e2e2ee;
+  padding: 50px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;}
+  form{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+ 
+
+.formule h1{text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.formule label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+.formule input,
+.formule textarea {
+width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;}
+  .formule button {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.formule input:focus,
+.formule textarea:focus {
+  border-color: #9aa2eb;
+  box-shadow: 0 0 5px rgba(29, 30, 109, 0.3);
+  outline: none;}
+  span{
+    color: red;
+  }
+  footer {
+  padding: 20px;
+  background-color:  black;
+  width: 100%;
+  color: white;
+}
+
+    
+
